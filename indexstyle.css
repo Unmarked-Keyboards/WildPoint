@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d9d9d9;
+}
+
+header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0; 
+    height: 9%;
+    background: rgb(93,38,34);
+    background: linear-gradient(90deg, rgba(93,38,34,1) 0%, rgba(235,64,52,1) 50%, rgba(93,38,34,1) 100%); 
+    text-align: center;
+    color: #d9d9d9;
+    font-size: 24px;
+}
+
+h1{
+    margin-top: 0.598%;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 9%;
+    background: rgb(93,38,34);
+    background: linear-gradient(90deg, rgba(93,38,34,1) 0%, rgba(235,64,52,1) 50%, rgba(93,38,34,1) 100%); 
+}
+
+.LogIn{
+    position: absolute;
+    right: 0;
+    top: 9%;
+    height: 34.98%;
+    width: 20%; 
+    background-color: #f7d19e;
+    border: 12px solid rgb(300, 200, 100);
+}
+
+.Register{
+    position: absolute;
+    right: 0;
+    bottom: 9%;
+    height: 42%;
+    width: 20%; 
+    background-color: #2e2e2e;
+    border: 12px solid rgb(10, 20, 30);
+}
+
+.log{
+    text-align: center; 
+    margin-top: 12%;
+    color: rgb(10, 20, 30);
+    font-style: italic;
+}
+
+input{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #d9d9d9;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #ffff;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: #000000;
+    color: #d9d9d9;
+}
+
+input:hover{
+    width: 280px;
+    border-color: #ff4747;
+    color: #ff4747;
+}
+
+button{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(10, 20, 30);
+    transition: 0.25s;
+    cursor: pointer;
+    border: 2px solid #000;
+    color: #000;
+}
+
+button:hover{
+    background: rgb(93,38,34);
+    background: linear-gradient(90deg, rgba(93,38,34,1) 0%, rgba(235,64,52,1) 50%, rgba(93,38,34,1) 100%);
+    color: rgb(10, 20, 30);
+    border-radius: 12%;
+    border-color: #000;
+}
+.reg{
+    text-align: center; 
+    margin-top: 6%;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
