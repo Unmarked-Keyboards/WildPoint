@@ -25,8 +25,8 @@
       <a href="javascript:void(0)" class="closebtn" id="navclose">&times;</a>
       <a href="timeline.php">HOME</a>
       <a href="profile.php">PROFILE</a>
-      <a href="hubs.php">EVENTS</a>
-      <a href="groups.php">TOURNAMENTS</a>
+      <a href="events.php">EVENTS</a>
+      <a href="tournaments.php">TOURNAMENTS</a>
       <a href="settings.php">SETTINGS</a>
     </div>
     <div id="header" class="header">
