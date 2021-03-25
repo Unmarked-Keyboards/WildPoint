@@ -45,7 +45,7 @@
       position: absolute;
       left: 1.4%; 
       top: 2%; 
-      width: 56%;
+      width: 56%; 
       height: 84%;
       margin-left: 1.4%;
     }
