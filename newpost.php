@@ -44,7 +44,20 @@
           <?php
             if(isset($_POST['GoBack'])) header('Location: timeline.php'); 
             else if(isset($_POST['Make'])){
-                
+              $Name = $_POST['Title'];
+              $Text = $_POST['Description'];
+              $WhichUser = $_SESSION['userid']; 
+
+              $Query = "INSERT INTO `posts` VALUES (NULL, '$Name', '$Text', 'There is no image yet. ', '$WhichUser')";
+              $Result = mysqli_query($Link, $Query) or die("Error appeared when you tried to make you account. We are so so sorry. Please please try again later on. "); 
+
+              $Number = mysqli_affected_rows($Link);
+              if($Number > 0) {
+                  echo "You have just made a new Post! Awesome! ";
+              }
+              else {
+                  echo "There was an error :(, please try again, later and we are excited that you want to let us know  :D . )";
+              }
             }
           ?>
         </from>
