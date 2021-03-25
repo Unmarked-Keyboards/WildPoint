@@ -1,101 +1,144 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
-*{	
-	margin: 0;
-	padding: 0;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body{
-	background-color: #d9d9d9;
-	background: url('background.png');
+    background-color: #d9d9d9;
 }
 
 header{
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-	height: 12%;
-	background: rgb(93,38,34);
-    background: linear-gradient(90deg, rgba(93,38,34,1) 0%, rgba(235,64,52,1) 50%, rgba(93,38,34,1) 100%);
-}
-
-.wildpoint{
-	position: absolute;
-	top: 20%;
-	width: 100%;
-    text-align: center;
-	font-size: 60px;
-	font-family: 'Roboto', sans-serif;
-	color: #d9d9d9;
-	font-style: bold;
-}
-
-.text1{
-	position: absolute;
-	top: 14%;
-	font-size: 20px;
-	font-color: #eb4034;
-}
-
-.profile{
-	position: absolute;
-	top: 20%;
-	left: 15%;
-	right: 15%;
-	bottom: 20%;
-	background-color: rgba(247, 209, 158, 0.85);
-	border: 4px solid rgb(300, 200, 100);
-}
-
-.info{
-	position: absolute;
-	left: 6%;
-	top:4%;
-	line-height: 78px;
-	font-size: 36px;
-	font-family: 'Roboto', sans-serif;
-	/*width: 100%;
-	padding: 12px;
-  	border: 1px solid #ccc;
-  	border-radius: 4px;
-  	resize: vertical;*/
-}
-
-button{
     position: absolute;
-    bottom: 4%;
-    left:45%;
-    border: 0;
-    background: none;
-    display: block;
+    left: 0;
+    right: 0;
+    top: 0; 
+    height: 9%;
+    background: rgb(93,38,34);
+    background: linear-gradient(90deg, rgba(93,38,34,1) 0%, rgba(235,64,52,1) 50%, rgba(93,38,34,1) 100%); 
     text-align: center;
-    border: 2px solid #2ecc71;
-    padding: 14px 40px;
-    border-radius: 5%;
-    outline: none;
-    color: rgb(10, 20, 30);
-    transition: 0.10s;
-    cursor: pointer;
-    border: 2px solid #000;
-    color: #000;
-    font-size: 20px;
+    color: #d9d9d9;
+    font-size: 24px;
 }
 
-button:hover{
-    background: rgb(93,38,34);
-    background: linear-gradient(90deg, rgba(93,38,34,1) 0%, rgba(235,64,52,1) 50%, rgba(93,38,34,1) 100%);
-    color: rgb(10, 20, 30);
-    border-radius: 12%;
-    border-color: #000;
+h1{
+    margin-top: 0.598%;
 }
 
 footer{
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
-	height: 10%;
-	background: rgb(93,38,34);
-    background: linear-gradient(90deg, rgba(93,38,34,1) 0%, rgba(235,64,52,1) 50%, rgba(93,38,34,1) 100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 9%;
+    background: rgb(93,38,34);
+    background: linear-gradient(90deg, rgba(93,38,34,1) 0%, rgba(235,64,52,1) 50%, rgba(93,38,34,1) 100%); 
+}
+
+.LogIn{
+    position: absolute;
+    right: 0;
+    top: 9%;
+    height: 34.58%;
+    width: 20%; 
+    background-color: #f7d19e;
+    border: 12px solid rgb(300, 200, 100);
+}
+
+.Register{
+    position: absolute;
+    right: 0;
+    bottom: 9%;
+    height: 42.44%;
+    width: 20%; 
+    background-color: #2e2e2e;
+    border: 12px solid rgb(10, 20, 30);
+}
+
+.log{
+    text-align: center; 
+    margin-top: 12%;
+    color: rgb(10, 20, 30);
+    font-style: italic;
+}
+
+input{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #d9d9d9;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #ffff;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: #000000;
+    color: #d9d9d9;
+}
+
+input:hover{
+    width: 280px;
+    border-color: #ff4747;
+    color: #ff4747;
+}
+
+button{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(10, 20, 30);
+    transition: 0.25s;
+    cursor: pointer;
+    border: 2px solid #000;
+    color: #000;
+}
+
+button:hover{
+    background-color: #eb4034;
+    color: rgb(10, 20, 30);
+    border-radius: 12%;
+    border: none;
+}
+.reg{
+    text-align: center; 
+    margin-top: 6%;
+    color: rgb(300, 200, 100);
+    font-style: italic;
+}
+.RegButton{
+    border: 2px solid rgb(300, 200, 100);
+    color: rgb(300, 200, 100);
+}
+
+.Name{
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #d9d9d9;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #ffff;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: #000000;
+    color: #d9d9d9;
+}
+
+.Name:hover{
+    width: 280px;
+    border-color: #ff4747;
+    color: #ff4747;
+}
+
+.FullName{
+    display: flex;
 }
